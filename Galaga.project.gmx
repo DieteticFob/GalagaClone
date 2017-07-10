@@ -11,10 +11,15 @@
       <sprite>sprites\spr_player</sprite>
     </sprites>
     <sprites name="Bullet sprites">
-      <sprite>sprites\shot1</sprite>
+      <sprite>sprites\PlayerShot</sprite>
+      <sprite>sprites\BomberShot</sprite>
     </sprites>
     <sprites name="Enemies">
-      <sprite>sprites\Bomber</sprite>
+      <sprites name="Bomber">
+        <sprite>sprites\Bomber_easy</sprite>
+        <sprite>sprites\Bomber_high</sprite>
+        <sprite>sprites\Bomber_mid</sprite>
+      </sprites>
     </sprites>
     <sprites name="FX">
       <sprite>sprites\Explosion1_sprite</sprite>
@@ -31,8 +36,9 @@
   <objects name="objects">
     <object>objects\Player</object>
     <object>objects\Player_bullet</object>
-    <object>objects\Enemy_bomber</object>
+    <object>objects\Enemy_bomber_easy</object>
     <object>objects\Explosion1</object>
+    <object>objects\Bomber_bullet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_one</room>
